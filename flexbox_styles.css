@@ -1,0 +1,56 @@
+/* 
+TODO: Add styles to match the layout in the image.
+Note: you should only need to use flexbox properties and margin/padding to create the layout.
+*/
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navlink  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    text-align: center;
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
